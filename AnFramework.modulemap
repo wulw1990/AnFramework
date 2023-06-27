@@ -1,0 +1,9 @@
+framework module AnFramework {
+    umbrella header "AnFramework.h"
+
+    explicit module SQLite3Load {
+        private header "sqlite3.h"
+    }
+
+    export *
+}
